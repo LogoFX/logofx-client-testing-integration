@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Integration.NET45", "LogoFX.Client.Testing.Integration\net45\LogoFX.Client.Testing.Integration.NET45.csproj", "{8118648D-5345-4AF9-86F7-6FB9AE460A54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogoFX.Client.Testing.Integration.NETStandard13", "LogoFX.Client.Testing.Integration\netstandard1.3\LogoFX.Client.Testing.Integration.NETStandard13.csproj", "{CC8B89A1-76E5-4557-97AD-DCF3AF17DD77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogoFX.Client.Testing.Integration.NETStandard20", "LogoFX.Client.Testing.Integration\netstandard2.0\LogoFX.Client.Testing.Integration.NETStandard20.csproj", "{5B4CB6B2-C361-4181-BA17-BCFE6C4404CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{CC8B89A1-76E5-4557-97AD-DCF3AF17DD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC8B89A1-76E5-4557-97AD-DCF3AF17DD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC8B89A1-76E5-4557-97AD-DCF3AF17DD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4CB6B2-C361-4181-BA17-BCFE6C4404CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4CB6B2-C361-4181-BA17-BCFE6C4404CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4CB6B2-C361-4181-BA17-BCFE6C4404CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4CB6B2-C361-4181-BA17-BCFE6C4404CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3D81958-72C0-41CC-8E61-811CA02897A3}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,5 @@
-﻿using LogoFX.Client.Testing.Contracts;
+﻿using Attest.Testing.Contracts;
+using LogoFX.Client.Testing.Contracts;
 
 namespace LogoFX.Client.Testing.Integration
 {

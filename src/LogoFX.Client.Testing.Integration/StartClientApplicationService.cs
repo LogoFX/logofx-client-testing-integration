@@ -15,7 +15,7 @@ namespace LogoFX.Client.Testing.Integration
         }
 
         /// <inheritdoc />
-        public void StartApplication()
+        public void Start()
         {
             _startApplicationService.Start(string.Empty);
         }

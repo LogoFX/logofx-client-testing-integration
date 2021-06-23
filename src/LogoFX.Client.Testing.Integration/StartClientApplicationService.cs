@@ -8,7 +8,10 @@ namespace LogoFX.Client.Testing.Integration
     {
         private readonly IStartApplicationService _startApplicationService;
 
-        /// <inheritdoc />
+        /// <summary>
+        /// Creates a new instance of <see cref="StartClientApplicationService"/>
+        /// </summary>
+        /// <param name="startApplicationService"></param>
         public StartClientApplicationService(IStartApplicationService startApplicationService)
         {
             _startApplicationService = startApplicationService;

@@ -8,3 +8,5 @@ Base implementation of Start Client Application Service for integration tests.
 <img src=https://img.shields.io/nuget/dt/LogoFX.Client.Tests.Integration>
 
 [Get package](https://www.nuget.org/packages/LogoFX.Client.Tests.Integration)
+
+This repository is archived. Its functionality has been moved to https://github.com/LogoFX/testing
